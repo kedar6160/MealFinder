@@ -1,0 +1,82 @@
+.image-container {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-wrapper {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .image:hover {
+    transform: scale(1.05);
+  }
+  
+  .info-container {
+    text-align: center;
+  }
+  
+  .meal-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin: 8px 0;
+  }
+  
+  .item-data {
+    background-color: #f5f5f5;
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333333;
+  }
+
+  .image-container {
+    /* ...existing styles... */
+    position: relative;
+    margin: 10px;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+  }
+  
+  .popup {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 16px;
+    width: 400px;
+    position: relative;
+  }
+  
+  .popup-text {
+    font-size: 16px;
+    color: #333333;
+    margin-top: 16px;
+  }
+  

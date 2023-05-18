@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+form {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+
+.search-results {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: row;
+  grid-gap: 20px;
+  width: 100%;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.load-more-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.load-more-button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  text-align: center;
+}
+
+/* Additional Styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-results img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.search-results .meal-name {
+  margin-top: 10px;
+  font-weight: bold;
+}
